@@ -1,0 +1,221 @@
+{ "Hospitals":
+
+[ 
+  {
+    "Zipcode": "94102",
+    "Nearest Hospital": "St Francis Memorial Hospital",
+    "Hospital Phone Number": "(415) 353- 6000",
+    "Hospital Address": "900 Hyde St, San Francisco, CA 94109",
+    "Nearest Fire Station": "FS 36",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94103",
+    "Nearest Hospital": "UCSF Mission Bay",
+    "Hospital Phone Number": "(415) 353-3000",
+    "Hospital Address": "1500 Owens St, San Francisco, CA 94158",
+    "Nearest Fire Station": "FS 1",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94104",
+    "Nearest Hospital": "St Jude's Children's Hospital",
+    "Hospital Phone Number": "(800) 701-4443",
+    "Hospital Address": "100 Bush St Suite 850, San Francisco, CA 94104",
+    "Nearest Fire Station": "FS 13",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94105",
+    "Nearest Hospital": "Circle Medical",
+    "Hospital Phone Number": "(415) 840-0560",
+    "Hospital Address": "333 1st St, San Francisco, CA 94105",
+    "Nearest Fire Station": "FS 35",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94107",
+    "Nearest Hospital": "UCSF Benioff Children's Hospital",
+    "Hospital Phone Number": "(415) 476-1000",
+    "Hospital Address": "1975 Fourth St., San Francisco, CA 94158",
+    "Nearest Fire Station": "FS 29",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94108",
+    "Nearest Hospital": "St Francis Memorial Hospital",
+    "Hospital Phone Number": "(415) 353-6000",
+    "Hospital Address": "900 Hyde St, San Francisco, CA 94109",
+    "Nearest Fire Station": "FS 41",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94109",
+    "Nearest Hospital": "St Francis Memorial Hospital",
+    "Hospital Phone Number": "(415) 353- 6000",
+    "Hospital Address": "900 Hyde St, San Francisco, CA 94109",
+    "Nearest Fire Station": "FS 41",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94110",
+    "Nearest Hospital": "St Luke's Hospital",
+    "Hospital Phone Number": "(415) 600-6000",
+    "Hospital Address": "3555 Cesar Chavez St, San Francisco, CA 94110",
+    "Nearest Fire Station": "FS 11",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94111",
+    "Nearest Hospital": "St Jude's Children's Hospital",
+    "Hospital Phone Number": "(800) 701-4443",
+    "Hospital Address": "100 Bush St Suite 850, San Francisco, CA 94104",
+    "Nearest Fire Station": "FS 13",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94112",
+    "Nearest Hospital": "Clinic By the Bay",
+    "Hospital Phone Number": "(415) 405-0222",
+    "Hospital Address": "4877 Mission St, San Francisco, CA 94112",
+    "Nearest Fire Station": "FS 15",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94114",
+    "Nearest Hospital": "One Medical Castro",
+    "Hospital Phone Number": "(415) 529-4099",
+    "Hospital Address": "595 Castro St, San Francisco, CA 94114",
+    "Nearest Fire Station": "FS 24",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94115",
+    "Nearest Hospital": "UCSF Medical Center",
+    "Hospital Phone Number": "(415) 567-6600",
+    "Hospital Address": "1600 Divisadero St, San Francisco, CA 94115",
+    "Nearest Fire Station": "FS 10",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94116",
+    "Nearest Hospital": "NEMS",
+    "Hospital Phone Number": "(415)-391-9686",
+    "Hospital Address": "3431 Taraval St, San Francisco, CA 94116",
+    "Nearest Fire Station": "FS 18",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94117",
+    "Nearest Hospital": "St Mary's Medical Center",
+    "Hospital Phone Number": "(415) 750-4878",
+    "Hospital Address": "2235 Hayes St, San Francisco, CA 94117",
+    "Nearest Fire Station": "FS 21",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94118",
+    "Nearest Hospital": "Kaiser Medical Center SF",
+    "Hospital Phone Number": "(415) 833-2000",
+    "Hospital Address": "Geary Blvd, San Francisco, CA 94118",
+    "Nearest Fire Station": "FS 31",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94121",
+    "Nearest Hospital": "NEMS",
+    "Hospital Phone Number": "(415) 391-9686",
+    "Hospital Address": "1033 Clement St, San Francisco, CA 94118",
+    "Nearest Fire Station": "FS 34",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94122",
+    "Nearest Hospital": "UCSF Medical Center",
+    "Hospital Phone Number": "(415) 476-1000",
+    "Hospital Address": "505 Parnassus Ave, San Francisco, CA 94143",
+    "Nearest Fire Station": "FS 22",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94123",
+    "Nearest Hospital": "Dignity Health Urgent Care",
+    "Hospital Phone Number": "(415) 796-2242",
+    "Hospital Address": "2395 Lombard St, San Francisco, CA 94123",
+    "Nearest Fire Station": "FS 16",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94124",
+    "Nearest Hospital": "Southeast Health Center Clinic",
+    "Hospital Phone Number": "(415) 671-7000",
+    "Hospital Address": "2403 Keith St, San Francisco, CA 94124",
+    "Nearest Fire Station": "FS 17",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94127",
+    "Nearest Hospital": "Dignity Health Urgent Care",
+    "Hospital Phone Number": "(415) 821-8798",
+    "Hospital Address": "199 W Portal Ave, San Francisco, CA 94127",
+    "Nearest Fire Station": "FS 39",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94129",
+    "Nearest Hospital": "Primary Care CA Pacific Center",
+    "Hospital Phone Number": "(415) 600-6000",
+    "Hospital Address": "3700 California St, San Francisco, CA 94118",
+    "Nearest Fire Station": "FS 51",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94130",
+    "Nearest Hospital": "St Jude's Children's Hospital",
+    "Hospital Phone Number": "(800) 701-4443",
+    "Hospital Address": "100 Bush St Suite 850, San Francisco, CA 94104",
+    "Nearest Fire Station": "FS 48",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94131",
+    "Nearest Hospital": "Dignity Health Urgent Care",
+    "Hospital Phone Number": "(415) 964-4866",
+    "Hospital Address": "2895 Diamond St, San Francisco, CA 94131",
+    "Nearest Fire Station": "FS 26",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94132",
+    "Nearest Hospital": "Carbon Health Urgent Care",
+    "Hospital Phone Number": "(415) 480-1160",
+    "Hospital Address": "3251 20th Ave Suite 320, San Francisco, CA 94132",
+    "Nearest Fire Station": "FS 19",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94133",
+    "Nearest Hospital": "UCSF Health",
+    "Hospital Phone Number": "(415) 502-2602",
+    "Hospital Address": "1725 Montgomery St Second Floor, Suite 250, San Francisco, CA 94111",
+    "Nearest Fire Station": "FS 28",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94134",
+    "Nearest Hospital": "NEMS",
+    "Hospital Phone Number": "(415) 391-9686",
+    "Hospital Address": "2574 San Bruno Ave, San Francisco, CA 94134",
+    "Nearest Fire Station": "FS 44",
+    "Call an ambulance": "(415) 558-3660"
+  },
+  {
+    "Zipcode": "94158",
+    "Nearest Hospital": "St Francis Memorial Hospital",
+    "Hospital Phone Number": "(415) 353-6000",
+    "Hospital Address": "900 Hyde St, San Francisco, CA 94109",
+    "Nearest Fire Station": "FS 4",
+    "Call an ambulance": "(415) 558-3660"
+  }
+]
+}

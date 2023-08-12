@@ -1,0 +1,166 @@
+{ "Pantries":
+[
+    {
+      "Zipcode": "94102",
+      "Name": "SF Rescue Mission",
+      "Address": "140 Turk St, San Francisco, CA 94102",
+      "Hours": "Monday-Friday 10 AM & hot meals Mon-Fri 3-4pm"
+    },
+    {
+      "Zipcode": "94103",
+      "Name": "Grace Fellowship Community Church",
+      "Address": "3265 16th St San Francisco 94103",
+      "Hours": "Saturday 1:30 pm - 2:30 pm"
+    },
+    {
+      "Zipcode": "94104",
+      "Name": "Grace Fellowship Community Church",
+      "Address": "3265 16th St San Francisco 94103",
+      "Hours": "Saturday 1:30 pm - 2:30 pm"
+    },
+    {
+      "Zipcode": "94105",
+      "Name": "Chinatown Food Pantry",
+      "Address": "1 Sabin Place San Francisco, CA 94108",
+      "Hours": "Thursday 3pm - 5pm"
+    },
+    {
+      "Zipcode": "94107",
+      "Name": "Food Pantry at St. Gregory's",
+      "Address": "500 De Haro Street, San Francisco CA 94107",
+      "Hours": "Saturday 1pm - 2pm"
+    },
+    {
+      "Zipcode": "94108",
+      "Name": "YMCA Chinatown Food Pantry",
+      "Address": "1 Sabin Place San Francisco, CA 94108",
+      "Hours": "Thursday 3:00pm - 5:00pm"
+    },
+    {
+      "Zipcode": "94109",
+      "Name": "St. Dominic's",
+      "Address": "2390 Bush St San Francisco 94115-3124",
+      "Hours": "Monday 10:15 am - 11:30 am"
+    },
+    {
+      "Zipcode": "94110",
+      "Name": "Reality SF",
+      "Address": "1325 Valencia St San Francisco 94110",
+      "Hours": "Saturday 9-10am"
+    },
+    {
+      "Zipcode": "94111",
+      "Name": "YMCA Chinatown Food Pantry",
+      "Address": "1 Sabin Place San Francisco, CA 94108",
+      "Hours": "Thursday 2-4:30pm"
+    },
+    {
+      "Zipcode": "94112",
+      "Name": "Excelsior Community Center",
+      "Address": "4468 Mission St San Francisco 94112",
+      "Hours": "Wednesday 3:30-5pm"
+    },
+    {
+      "Zipcode": "94114",
+      "Name": "Church Street Pantry",
+      "Address": "152 Church St San Francisco 94114",
+      "Hours": "Tuesday 11:30 am - 12:50 pm"
+    },
+    {
+      "Zipcode": "94115",
+      "Name": "St. Andrew MB Church",
+      "Address": "2565 Post St San Francisco 94115",
+      "Hours": "Wednesday 9:00 am - 10:00 am"
+    },
+    {
+      "Zipcode": "94116",
+      "Name": "Covenant Presbyterian Church",
+      "Address": "321 Taraval St San Francisco 94116",
+      "Hours": "Saturday 9:00 am - 10:30 am"
+    },
+    {
+      "Zipcode": "94117",
+      "Name": "St. Agnes Community Food Pantry",
+      "Address": "1025 Masonic Ave San Francisco 94117",
+      "Hours": "Thursday 1:00 pm - 3:00 pm"
+    },
+    {
+      "Zipcode": "94118",
+      "Name": "George Peabody RNC",
+      "Address": "256 7th Ave San Francisco 94118",
+      "Hours": "Monday 3:00 pm - 4:00 pm"
+    },
+    {
+      "Zipcode": "94121",
+      "Name": "Richmond District YMCA",
+      "Address": "360 18th Ave San Francisco 94121",
+      "Hours": "Wednesday 10:00 am - 12:00 pm"
+    },
+    {
+      "Zipcode": "94122",
+      "Name": "Sunset Neighborhood Beacon Ctr.",
+      "Address": "3010 Noriega St San Francisco 94122",
+      "Hours": "Friday 11:00 am - 1:00 pm"
+    },
+    {
+      "Zipcode": "94123",
+      "Name": "St. Dominic's",
+      "Address": "2390 Bush St San Francisco 94115-3124",
+      "Hours": "Monday 10:15 am - 11:30 am"
+    },
+    {
+      "Zipcode": "94124",
+      "Name": "Oakdale NGN",
+      "Address": "1065 Oakdale Ave San Francisco 94124",
+      "Hours": "Friday 1:00 pm - 2:00 pm"
+    },
+    {
+      "Zipcode": "94127",
+      "Name": "Stonestown YMCA Food Pantry",
+      "Address": "501 Buckingham Way San Francisco 94132",
+      "Hours": "Wednesday 12:00pm - 4:00pm"
+    },
+    {
+      "Zipcode": "94129",
+      "Name": "Saint John's Presbyterian Church",
+      "Address": "25 Lake St, San Francisco, CA 94118",
+      "Hours": "Saturday 7:30am - 9:30am"
+    },
+    {
+      "Zipcode": "94130",
+      "Name": "ShipShape Community Center Food Pantry",
+      "Address": "850 Ave I, San Francisco, CA 94130",
+      "Hours": "Tuesday 3pm - 5pm"
+    },
+    {
+      "Zipcode": "94131",
+      "Name": "St. Aidan's Episcopal Church",
+      "Address": "101 Gold Mine Dr San Francisco 94131",
+      "Hours": "Friday 1:00 pm - 2:00 pm"
+    },
+    {
+      "Zipcode": "94132",
+      "Name": "The Father's House",
+      "Address": "269 Zoo Rd San Francisco 94132",
+      "Hours": "Thursday 5:00 pm - 6:00 pm"
+    },
+    {
+      "Zipcode": "94133",
+      "Name": "Chinatown Corps Community Center",
+      "Address": "1450 Powell St San Francisco 94133",
+      "Hours": "Friday 2:00 pm - 3:00 pm"
+    },
+    {
+      "Zipcode": "94134",
+      "Name": "Visitacion Valley Baptist Church",
+      "Address": "45 Leland Ave San Francisco 94134",
+      "Hours": "Saturday 8:15-9:15am"
+    },
+    {
+      "Zipcode": "94158",
+      "Name": "Food Pantry at St. Gregory's",
+      "Address": "500 De Haro St San Francisco 94107",
+      "Hours": "Saturday 11:00 am - 2:00 pm"
+    }
+  ]
+}
