@@ -62,15 +62,17 @@ class HospitalPageState extends State<HospitalPage> {
                       var setZipcode = widget.ss;
                       int i = _hospitals
                           .indexWhere((item) => item['Zipcode'] == setZipcode);
+                      print(i);
                       var nfs = _hospitals[i]['Nearest Fire Station'];
                       return Card(
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8)),
                           color: Colors.blue,
                           margin: const EdgeInsets.symmetric(
-                              horizontal: 200, vertical: 50),
+                              horizontal: 350, vertical: 100),
                           child: SizedBox(
-                            height: 300,
+                            height: 400,
+                            width: 350,
                             // setting up each zipcode as a key to access the rest of each hospital's info
                             key: ValueKey(_hospitals[i]["Zipcode"]),
                             // indexing info vs listtile, e.g. 1st listtile contains 1st hospital's info

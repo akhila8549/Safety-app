@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_location/resource_selection.dart';
-import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 
 class ZipcodeFinder extends StatefulWidget {
@@ -18,7 +17,7 @@ class _zipcodeState extends State<ZipcodeFinder> {
 
 // method to check/request location services
   Future<bool> _handleLocationPermission() async {
-    bool serviceEnabled; // BUG: WHY IS IT NOT INCREMENTING??????
+    bool serviceEnabled;
     LocationPermission permission;
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
     // if location disabled, ask user to enable, return false
@@ -58,7 +57,7 @@ class _zipcodeState extends State<ZipcodeFinder> {
 
     if (!hasPermission) return;
     // if permission granted, get current location as a Position
-    await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high)
+    await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.best)
         .then((Position position) {
       setState(() => _currentPosition = position);
     });

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_location/data/foodbank_model.dart';
-import 'package:geocoding/geocoding.dart';
 import 'package:flutter_location/data/hospital_model.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'dart:async';
+import 'package:geocoding/geocoding.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
@@ -40,7 +40,7 @@ class _ResourcePageState extends State<ResourcePage> {
     final String response = await rootBundle.loadString('safety_data.json');
     final data = await json.decode(response);
     setState(() {
-      h_data = data['Hospitals'];
+      h_data = data["Hospitals"];
     });
   }
 
@@ -48,11 +48,11 @@ class _ResourcePageState extends State<ResourcePage> {
 
   List location_list = [];
 
-  void findLocation(geo_address) async {
-    final List loc = await locationFromAddress(geo_address);
-    debugPrint('$loc');
+  findLocation(geoAddress) async {
+    List<Location> locations = await locationFromAddress('337 Hamilton Street');
+    print('$locations');
     setState(() {
-      location_list.add(loc);
+      location_list.add('loc');
     });
   }
 
@@ -69,10 +69,13 @@ class _ResourcePageState extends State<ResourcePage> {
     var sS = widget.specified_search;
     var latnow = widget.current_lat;
     var longnow = widget.current_long;
-    int i = h_data.indexWhere((item) => item['Zipcode'] == sS);
+    int i = h_data.indexWhere((item) => item["Zipcode"] == sS);
+    print(i);
+
     var hAddress = h_data[i]
         ['Hospital Address']; // the hospital relevant to user's zipcode
-    void geocode() {
+    @override
+    void initState() {
       findLocation(hAddress);
     }
 
@@ -87,7 +90,8 @@ class _ResourcePageState extends State<ResourcePage> {
             child: Center(
                 child:
                     Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-          ElevatedButton(onPressed: geocode, child: Text("$location_list")),
+          ElevatedButton(
+              onPressed: initState, child: Text(location_list.toString())),
           SizedBox(
               height: 400,
               width: 300,
@@ -97,14 +101,14 @@ class _ResourcePageState extends State<ResourcePage> {
                       CameraPosition(target: LatLng(latnow, longnow), zoom: 15),
                   markers: {
                     Marker(
-                        markerId: MarkerId('You'),
+                        markerId: const MarkerId('You'),
                         position: LatLng(latnow, longnow),
-                        infoWindow: InfoWindow(title: 'You')),
+                        infoWindow: const InfoWindow(title: 'You')),
 
-                    ///Marker(
-                    // markerId: MarkerId('Hospital'),
-                    // position: LatLng(h_lat, h_long),
-                    //  infoWindow: InfoWindow(title: 'Hospital')),
+                    //Marker(
+                    //markerId: MarkerId('Hospital'),
+                    //position: LatLng(h_lat, h_long),
+                    //infoWindow: InfoWindow(title: 'Hospital')),
                   })),
 
           // button to find hospitals near zipcode
