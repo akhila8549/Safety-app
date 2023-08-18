@@ -1,16 +1,4 @@
-# flutter_location
+# Safety App
+Click the Find My Zipcode button and type your zipcode in the search box, then hit Enter and click on your zipcode in the list of results. This will take you to the Resource page.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Resource page shows a map containing various resources in your area, as well as several icons representing different resources. Click on the resource you need. This will take you to an information card containing details about the highest-rated resource in your zipcode.
